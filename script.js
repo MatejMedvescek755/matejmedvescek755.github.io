@@ -275,11 +275,11 @@ setInterval(()=>{
         hardRightOne=0;
     }
     if(move.Down){
-        position.y+=10;
+        position.y+=speedDown;
         move.HardLeft=false;
         move.HardRight= false;
     }else{
-        position.y-=10;
+        position.y-=speedDown;
         move.HardLeft=false;
         move.HardRight=false;
     }
